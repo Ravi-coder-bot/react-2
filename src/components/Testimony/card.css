@@ -1,0 +1,45 @@
+.card{
+    height : 480px;
+    width: 315px;
+    background-color: #fff;
+    border-radius: 30px;
+    transition: box-shadow 0.3s ease;
+   
+}
+.card:hover{
+    box-shadow: 0px 15px 50px black;
+}
+
+.card-logo{
+    height : 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Outfit;
+}
+.card-content{
+    height : auto;
+    margin-top: 20px ;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+.card-name{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.card-about{
+    margin-left: 20px;
+    font-size: 15px;
+    color: #292929;
+}
+.hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}

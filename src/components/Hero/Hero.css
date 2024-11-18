@@ -1,0 +1,130 @@
+.hero{
+    margin : 0px 120px;
+    margin-top : 50px;
+    height: 500px;
+}
+.hero-text{
+   
+    color  : #fff;
+    font-size : 80px;
+    font-weight : 500;
+    line-height: 130px;
+}
+.hero-explore{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    margin-top: 40px;
+    padding: 5px 8px;
+    padding-left: 30px;
+    border-radius : 60px;
+    background-color: white;
+    cursor :pointer;
+}
+
+.hero-explore p{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero-explore img{
+    width: 50px;
+    height: 50px;
+}
+.hero-dot-play{
+    margin-top: 10px;
+    margin-left: 10px;
+    display:flex;
+    justify-content : space-between;
+}
+.hero-dots{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style: none;
+}
+.hero-dot{
+    width: 15px;
+    height : 15px;
+    background:#fff;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+.hero-dot.orange{
+    background: orangered;
+}
+.hero-play{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hero-play p{
+    color: #fff;
+    font-size: 19px;
+}
+.hero-explore:hover{
+    background-color: #ff4f50;
+    transform: translateY(-5px);
+}
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.3);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    70% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.3);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    70% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .bounceIn {
+    animation: bounceIn 1.2s ease-out;
+  }
+  .animated-card {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  .slideInLeft {
+    animation-name: slideInLeft;
+  }
+  
+  .slideInRight {
+    animation-name: slideInRight;
+  }

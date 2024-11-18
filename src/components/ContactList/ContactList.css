@@ -1,0 +1,117 @@
+.contact-card{
+    height : 700px ;
+    width :100%;
+    background-color  : #fff;
+    padding-top : 50px;
+    padding-bottom: 50px;
+}
+.listing{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.bigcard2{
+    height: 90%;
+    width: 90%;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 70px;
+    background-size: cover;
+    background-image: url(../../assets/image9.jpg);
+    padding-top: 70px;
+}
+.bigcard3{
+    height : 500px;
+    padding-left: 225px;
+    padding-right: 200px;
+    
+    
+} 
+.bigcard3 h1{
+    margin-left: 220px;
+
+}
+.input1{
+    margin-right:30px;
+    margin-left: 100px;
+    margin-top: 30px;
+    height : 37px;
+    width: 170px;
+    border-radius: 10px;
+    padding : 5px;
+    color : #292929;
+    font-family: Outfit ;
+    font-size: 20px;
+    font-weight: 500;
+}
+.input2{
+    margin-right:30px;
+    margin-top: 30px;
+    height : 37px;
+    width: 170px;
+    border-radius: 10px;
+    padding : 5px;
+    color : #292929;
+    font-family: Outfit ;
+    font-size: 20px;
+    font-weight: 500;
+}
+.add-contact{
+    height : 50px;
+    background-color: orangered;
+    border-radius: 10px;
+    width: 140px;
+}
+.contact-list{
+    margin-top: 40px;
+    background-color: seashell;
+    margin-left: 35px;
+    border-radius: 20px;
+    height: 400px;
+    align-items: center;
+    justify-items: center;
+    background-image: url(../../assets/image12.jpg);
+}
+.contact-list p{
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+.ul-list{
+    list-style: none;
+}
+.list{
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 500;
+}
+.delete{
+    background-color: red;
+    border-radius: 10px;
+    height : 30px;
+    width: 80px;
+    
+    
+}
+.call{
+    background-color: green;
+    border-radius: 10px;
+    height : 30px;
+    width: 80px;
+    
+}
+.call-all{
+    background-color: rgb(55, 124, 36);
+    border-radius : 15px;
+    height : 40px;
+    width :   150px;
+    
+}
+button {
+    transition: box-shadow 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}

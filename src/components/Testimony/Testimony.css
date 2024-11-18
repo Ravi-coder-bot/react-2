@@ -1,0 +1,29 @@
+.bigcard{
+    height: 90%;
+    width: 90%;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 70px;
+    background-size: cover;
+    background-image: url(../../assets/image10.jpg);
+}
+.backgroundb{
+    height:700px;
+    width:100%;
+    background-color: #fff;
+    padding-top: 40px;
+}
+.bigcard p{
+    align-items: centre;
+    justify-content: center;
+    margin-left: 450px;
+    font-weight: 500  ;
+    font-size: 40px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
