@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import  Navbar  from "./components/Navbar/Navbar";
 import Hero from  "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
-import Testimony from "./components/Testimony/testimony";
+import Testimony from "./components/Testimony/Testimony";
 import ContactList from "./components/ContactList/ContactList";
 import Genai from "./components/Genai/Genai";
 
