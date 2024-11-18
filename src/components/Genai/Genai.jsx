@@ -9,7 +9,7 @@ export default function Genai() {
 
   const fetchPoem = async () => {
     try {
-      const genAI = new GoogleGenerativeAI("AIzaSyDR1AWR_lfwWlQYtAwjqfuMGH6DJBCAXDo");
+      const genAI = new GoogleGenerativeAI("put your api key");
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
       const prompt =
         "Generate a 10-word message for a women’s safety website focusing on empowerment and security.";
