@@ -7,6 +7,7 @@
 }
 .listing{
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     margin-top: 20px;
 }
@@ -114,4 +115,51 @@ button {
 
 button:hover {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    .bigcard3 {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .input1, .input2 {
+        width: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+    .bigcard3 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .input1, .input2 {
+        width: 130px;
+    }
+    .listing {
+        flex-direction: column; /* Stack items vertically */
+    }
+}
+
+@media (max-width: 768px) {
+    .bigcard3 h1 {
+        margin-left: 0; /* Center the heading */
+        text-align: center;
+    }
+    .input1, .input2 {
+        width: 100%; /* Full width on small screens */
+        margin: 0 auto; /* Center inputs */
+    }
+    .add-contact {
+        width: 100%; /* Full width button */
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-list p {
+        font-size: 30px; /* Reduce font size */
+    }
+    .delete, .call, .call-all {
+        width: 100%; /* Full width buttons */
+        height: 40px; /* Increase height for better touch */
+    }
 }

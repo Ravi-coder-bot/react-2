@@ -128,3 +128,44 @@
   .slideInRight {
     animation-name: slideInRight;
   }
+  /* Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+      margin: 0 20px;
+      height: auto; /* Allow height to adjust based on content */
+  }
+
+  .hero-text {
+      font-size: 50px; /* Smaller font size for smaller screens */
+      line-height: 80px; /* Adjust line height */
+  }
+
+  .hero-explore {
+      padding: 5px 10px; /* Adjust padding */
+      border-radius: 30px; /* Smaller border radius */
+  }
+
+  .hero-explore p {
+      font-size: 16px; /* Smaller font size */
+  }
+
+  .hero-explore img {
+      width: 40px; /* Smaller image size */
+      height: 40px; /* Smaller image size */
+  }
+
+  .hero-play p {
+      font-size: 16px; /* Smaller font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+      font-size: 30px; /* Further reduce font size */
+      line-height: 50px; /* Adjust line height */
+  }
+
+  .hero-explore {
+      gap: 10px; /* Smaller gap */
+  }
+}

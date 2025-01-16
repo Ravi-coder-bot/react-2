@@ -1,29 +1,95 @@
-.bigcard{
+.bigcard {
     height: 90%;
     width: 90%;
     border-radius: 30px;
     margin-top: 15px;
-    margin-left: 70px;
+    margin-left: 5%; /* Use percentage for left margin */
     background-size: cover;
     background-image: url(../../assets/image10.jpg);
 }
-.backgroundb{
-    height:700px;
-    width:100%;
+
+.backgroundb {
+    height: auto; /* Allow height to adjust based on content */
+    width: 100%;
     background-color: #fff;
-    padding-top: 40px;
+    padding-top: 5%; /* Use percentage for padding */
 }
-.bigcard p{
-    align-items: centre;
+
+.bigcard p {
+    align-items: center;
     justify-content: center;
-    margin-left: 450px;
-    font-weight: 500  ;
-    font-size: 40px;
+    margin-left: auto; /* Center text */
+    margin-right: auto; /* Center text */
+    font-weight: 500;
+    font-size: 2.5rem; /* Use rem for scalable font size */
+    text-align: center; /* Center text */
 }
-.cards{
+
+.cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    margin-top: 20px;
+    gap: 2rem; /* Use rem for gap */
+    margin-top: 2rem; /* Use rem for margin */
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .bigcard {
+        margin-left: 3%; /* Use percentage for left margin */
+    }
+
+    .bigcard p {
+        font-size: 2rem; /* Use rem for scalable font size */
+    }
+
+    .cards {
+        flex-direction: column; /* Stack cards vertically */
+        gap: 1.5rem; /* Use rem for gap */
+    }
+}
+
+@media (max-width: 768px) {
+    .bigcard {
+        height: 80%;
+        width: 100%; /* Full width on smaller screens */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .bigcard p {
+        font-size: 1.8rem; /* Use rem for scalable font size */
+    }
+
+    .backgroundb {
+        padding-top: 2%; /* Use percentage for padding */
+    }
+
+    .cards {
+        gap: 1rem; /* Use rem for gap */
+    }
+}
+
+@media (max-width: 480px) {
+    .bigcard p {
+        font-size: 1.5rem; /* Use rem for scalable font size */
+    }
+
+    .cards {
+        gap: 0.8rem; /* Use rem for gap */
+    }
+}
+
+/* Additional media query for very small screens */
+@media (max-width: 320px) {
+    .bigcard {
+        height: 70%; /* Adjust height for very small screens */
+    }
+
+    .bigcard p {
+        font-size: 1.2rem; /* Further reduce font size */
+    }
+
+    .cards {
+        gap: 0.5rem; /* Further reduce gap */
+    }
 }

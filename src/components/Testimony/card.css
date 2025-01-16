@@ -43,3 +43,41 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Make card take up 90% of the width */
+        height: auto; /* Adjust height to auto for flexibility */
+        margin: 0 auto; /* Center the card */
+    }
+
+    .card-logo {
+        font-size: 20px; /* Reduce font size for smaller screens */
+    }
+
+    .card-name {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+
+    .card-content, .card-about {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 95%; /* Make card take up 95% of the width */
+    }
+
+    .card-logo {
+        font-size: 18px; /* Further reduce font size */
+    }
+
+    .card-name {
+        font-size: 14px; /* Further reduce font size */
+    }
+
+    .card-content, .card-about {
+        font-size: 12px; /* Further reduce font size */
+    }
+}
